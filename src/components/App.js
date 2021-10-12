@@ -8,7 +8,7 @@ function App() {
 
   function handleDarkModeClick() {
     if(isDarkMode === 'light'){
-      setIsDarkMode('dark-mode')
+      setIsDarkMode('dark')
     }else {
       setIsDarkMode('light')
     }

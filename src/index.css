@@ -37,9 +37,9 @@ span[role="image"] {
   text-shadow: 0 0 0 black;
 }
 
-.dark-mode {
-  color: rgb(255, 255, 255);
-  background-color: rgb(50, 50, 50);
+.App.dark {
+  --font-color: rgb(255, 255, 255);
+  --background-color: rgb(50, 50, 50);
   --background--light: rgb(80, 80, 80);
   transition: all 0.3s;
 }
